@@ -23,7 +23,7 @@ async function run(){
     // console.log(readme.sha);
     console.log(Buffer.from(readme.content, 'base64').toString());
 
-    // update content
+    // get content and decrypt it
     const content = Buffer.from(readme.content, 'base64').toString();
     const updated = bumpRepoCounter(content);
     console.log(updated);
