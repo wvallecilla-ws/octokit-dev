@@ -5,5 +5,5 @@
 </p>
 
 <p>
-I have created a octokit dev repository, which has <!-- repo-counter -->20<!-- /repo-counter --> commits on the cli.js file.
+I have created a octokit dev repository, which has <!-- repo-counter -->21<!-- /repo-counter --> commits on the cli.js file.
 </p>
