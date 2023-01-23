@@ -25,17 +25,17 @@ async function run(){
 
     // get content and decrypt it
     const content = Buffer.from(readme.content, 'base64').toString();
-    // console.log(content);
+    console.log(content);
 
     // testing setting admin branch protection
-    const { data: response3} = await octokit.repos.setAdminBranchProtection({owner: 'Woodside', repo: 'vscode-ext-test03', branch: 'main'});
+    // const { data: response3} = await octokit.repos.setAdminBranchProtection({owner: 'Woodside', repo: 'vscode-ext-test03', branch: 'main'});
     // const { data: response3} = await octokit.request(`POST /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins`, {
     //   owner: 'Woodside',
     //   repo: 'vscode-ext-test03',
     //   branch: 'main'
     // });
     
-    console.log(response3);
+    // console.log(response3);
 }
 
 
